@@ -22,7 +22,8 @@ function sortMaker(arr) {
       ];
       return assendingArray;
     } else {
-      return "Invalid Input";
+      const errorInvalidMessage = "Invalid Input";
+      return errorInvalidMessage;
     }
   } else {
     const errorMessage = "Please provide only two number";

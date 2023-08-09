@@ -11,7 +11,8 @@ function canPay(changeArray, totalDue) {
       return false;
     }
   } else {
-    return "Please provide an valid array";
+    const errorMessage = "Please provide an valid array";
+    return errorMessage;
   }
 }
 
